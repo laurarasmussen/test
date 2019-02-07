@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1549573942353.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F4F39E5",
+    "lastKnownWriteTime" : 1549575336,
+    "last_content_update" : 1549575336176,
+    "path" : "~/R course/GitHub/test/presentation.Rmd",
+    "project_path" : "presentation.Rmd",
+    "properties" : {
+        "cursorPosition" : "7,0",
+        "last_setup_crc32" : "7B86AD13c4e2d899",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

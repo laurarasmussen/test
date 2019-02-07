@@ -1,0 +1,49 @@
+---
+title: "challenge"
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
+
+```{r}
+#load packages
+library(tidyverse)
+# read the data and save it as an object
+dat <- read.csv("data.csv")
+
+# create plot of oxygen by depth 
+O2_plot <- quickplot(data=dat,
+                     x=O2_uM,       
+                     y=Depth_m,       
+                     colour=Season,       
+                     main="Saanich Inlet: Seasonal oxygen depth profile")
+O2_plot
+
+# save the plot 
+ggsave("O2_plot.png")
+
+###Change the axes
+O2_plot1 <- quickplot(data=dat,
+                     x=O2_uM,       
+                     y=Depth_m,       
+                     colour=Season,
+                     xlab="Oxygen",
+                     ylab="Depth profile",
+                     main="Saanich Inlet: Seasonal oxygen depth profile")
+O2_plot1
+# save the plot 
+ggsave("O2_plot1.png")
+```
+```{r}
+
+```
+*We obtained geochemical data for `r nrow(dat)` samples, `r nrow(filter(dat, Add_data==TRUE))` of which had corresponding microbial data.*
+
+
+```{r}
+
+```
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1549410890872.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "30577567",
+    "lastKnownWriteTime" : 1549412178,
+    "last_content_update" : 1549412178964,
+    "path" : "~/R course/GitHub/test/challenge.Rmd",
+    "project_path" : "challenge.Rmd",
+    "properties" : {
+        "cursorPosition" : "40,29",
+        "last_setup_crc32" : "7B86AD1358166134",
+        "scrollLine" : "37",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
